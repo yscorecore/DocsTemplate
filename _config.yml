@@ -1,1 +1,8 @@
-theme: jekyll-theme-slate
+title: Hello, Docs
+remote_theme: pmarsceill/just-the-docs
+plugins:
+  - jekyll-remote-theme
+exclude: 
+  - README.md 
+  - Dockerfile
+  - docker-compose.yml
